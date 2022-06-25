@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navtop{
+    width: 100%;
+    height: 112px;
+    background-color: #f1c21e; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+     
+
+.navtop [type=search] {
+    height: max-content;
+    margin-top: 35px;
+   
+}
+.navtop [type=submit] {
+    height: max-content;
+    margin-top: 35px;
+    margin-right: 50px;
+    
+}
+
+/* SLIDER */
+.textbox{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    
+    text-align: center;
+    
+}
+.textbox p{
+    font-size: 100px;
+    font-weight: bolder;
+    COLOR: white;
+    font-family: Script MT;
+     /* font-family:'Indie Flower', cursive;  */
+    /* font-family: impact,sans-serif; */
+    
+}
+ .textbox2{
+    position: absolute;
+    top: 15%;
+    left: 14%;
+    
+     text-align: left; 
+}
+.textbox2 p{
+    font-size: 80px;
+    font-weight: bolder;
+    COLOR: white;
+    font-family: Script MT;
+     
+} 
+.orderbtn{
+    width: 200px;
+    height: 50px;
+    border: 3px solid white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: azure;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifs;
+    background: rgba(255, 255, 255, 0.137);
+}
+.orderbtn:hover{
+    color: black;
+    border: 2px solid black;
+}
+.aboutrow{
+    margin-left: 6%;
+    padding-top: 5%;
+    margin-right: 2%;
+}
+.aboutheading{
+    background: black;
+    width: max-content;
+    border-radius: 10px;
+    padding: 1px 10px;
+    color: white;
+    font-family: Cooper;
+    margin-top: 30px;
+}
+.gallery-heading{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    font-family:Script MT;
+}
+.about-content{
+    padding-top: 40px;
+    text-align: justify;
+    font-size: 20px;
+    font-family: Segoe Print;
+    margin-bottom: 30px;
+}
+.placeheading{
+    text-align: center;
+    background-color: black;
+    width: max-content;
+    border-radius: 10px;
+    margin: 0px 45%;
+    font-size: 30px;
+    font-family: Cooper; 
+    color: white;
+}
+.place-text{
+    font-family: Segoe Print;
+    font-size: 20px;
+    font-weight: 300;
+}
+.ourplace-txt{
+     
+    color: whitesmoke;
+    font-size: 50px;
+    font-family: ui-monospace;
+}
+/* black part */
+.text-burger{
+    color: white;
+    padding-top: 100px;
+    font-size: 70px;
+}
+.black-image{
+    margin-left: 10%;
+}
+.menubtn{
+    width: 200px;
+    height: 50px;
+    border: 2px solid red;
+    background: red;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 40px;
+    margin-top: 50px;    
+}
+.menubtn:hover{
+    background: rgba(255, 255, 255, 0);
+    border: 2px solid white;
+}
+.text-pizza{
+    color: white;
+    font-size: 70px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+/* testimonial */
+.testimonial{
+    margin-top: 2%;
+    color: white;
+    background-color: black;
+    width: max-content;
+    padding: 0px 10px;
+    border-radius: 10px;
+    margin-left: 4%;
+    font-family: Cooper;
+}
+.testimonial-text{
+    color: grey;
+    
+    padding-left: 5%;
+    font-size: 20px;
+    font-family: Segoe Print;
+    padding-top: 30px;
+}
+.person{
+    font-weight: bolder;
+    padding: 30px 0px 20px 50px;
+}
+/* footer */
+.day{
+    color:rgb(235, 219, 6);
+    font-size: 15px;
+    font-weight: 200;
+    
+}
+.time{
+    color:white;
+    font-size: 15px;
+    font-weight: 200;
+}
+.perfect-taste{
+    color: rgb(235, 219, 6);
+    font-family:Script MT;
+    font-size: 20px;
+}
+.find{
+    color: white;
+    font-family:Segoe Print;
+     padding-bottom: 10px;
+}
+
+@media(max-width:750px){
+    .textbox2 p{
+        font-size: 50px;
+    }
+    .textbox p{
+        font-size: 70px;
+    }
+    .text-pizza{
+        font-size: 50px;
+    }
+    .text-burger{
+        font-size: 50px;
+    }
+    
+
+}
+@media(max-width:1000px)
+{
+    .black-image{
+        margin-left: 0px;
+    }
+}

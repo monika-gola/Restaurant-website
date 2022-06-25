@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navtop{
+    width: 100%;
+    height: 112px;
+    background-color: #f1c21e; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.navtop [type=search] {
+    height: max-content;
+    margin-top: 35px;
+   
+}
+.navtop [type=submit] {
+    height: max-content;
+    margin-top: 35px;
+    margin-right: 50px;
+    
+}
+/* header */
+.back-img{
+    background: url('./images/order1.jpg');
+    background-size: cover;
+    height: 600px;
+}
+.addbtn{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border:1px;
+    border-radius: 20px;
+    width: 50px;
+}
+.addbtn:hover{
+    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.562);
+}
+/* top image text */
+.top-text{
+    font-size: 80px;
+    font-weight: bolder;
+    color: aliceblue;
+    padding: 160px 40px;
+}
+.size{
+    width: 80%;
+}
+/* produvt clases */
+.product-img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.Tprice-style{
+    font-size: 20px;
+    font-weight: bold;
+}
+/* cart */
+.cart-box{
+    width: 40%;
+    border: 5px solid #000;
+    border-radius: 5px;
+    background: #d7e6f4;
+    font-family:monospace;
+    font-weight: bolder;
+}
+.cart-btn{
+    font-weight: 600;
+    width: 100%;
+    border: none;
+    background: red;
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+    font-family:cursive;
+}
+.cart-btn:hover{
+    box-shadow: 2px 4px 20px 2px rgba(0, 0, 0, 0.562);
+}
+/* footer */
+.day{
+    color:rgb(235, 219, 6);
+    font-size: 15px;
+    font-weight: 200;
+    
+}
+.time{
+    color:white;
+    font-size: 15px;
+    font-weight: 200;
+}
+.perfect-taste{
+    color: rgb(235, 219, 6);
+    font-family:Script MT;
+    font-size: 20px;
+}
+.find{
+    color: white;
+    font-family:Segoe Print;
+     padding-bottom: 10px;
+}
+.drop1{
+    position: absolute;
+    right: 8cm;
+}
+
+@media(max-width:750px){
+    .cart-box{
+        width: 60%;
+    }
+    .size{
+        width: 90%;
+    }
+    .top-text{
+        font-size: 50px;
+        
+    }
+}
